@@ -1,0 +1,55 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap :5px ; 
+}
+
+.login-form {
+    text-align: center;
+     padding: 20px; /* Khoảng cách bên trong hình chữ nhật */
+  border: 2px solid #000; /* Đường viền */
+  max-width: 400px; /* Độ rộng tối đa */
+  width: 100%; /* Để hình chữ nhật fit với form */
+  background-color: #DDE5E5; /* Màu nền của form */ 
+  border-radius: 5px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px; 
+    gap : 5px ; 
+}
+
+.signup-link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+form {
+  font-size: 18px; /* Tăng kích thước chữ */
+  padding: 20px; /* Khoảng cách xung quanh các phần tử trong form */
+  width: 300px; /* Đặt chiều rộng cho form */
+  margin: 0 auto; /* Canh giữa form theo chiều ngang */
+}
+
+
+.login-form input[type="submit"] {
+  display: inline-block;
+  background-color: #0aa7c2;
+}x
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Để form nằm giữa trang */
+  background-color: #bed6e0; /* Màu nền bên ngoài hình chữ nhật */
+}
+
+.outer-container {
+  background-color: #BBD6DF 
+}
